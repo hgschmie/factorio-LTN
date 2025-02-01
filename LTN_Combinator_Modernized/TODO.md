@@ -1,0 +1,75 @@
+# TODOs
+
+- [ ] Add documentation in informatron
+- [ ] Slider for fluids should be based on taker sizes
+- [ ] Add text to alert, setting to include surface
+- [ ] Add chat message to force for adding combi and setting
+- [ ] Remove register from remote open command.  Not doing pinning.
+- [ ] Does on_linked_open and open_gui need to be revisited?
+  - Can I get it so it doesn't open/close/open the UI?
+  - Should it be non-openable and only respond to the linked-control?
+- [ ] Add note to tool tip info that combi-ghost will be disabled when built?
+- [ ] Setting - auto delete non-depot signals (fun create_global_data...)
+- [ ] Really need to update all players with same combi open
+- [x] Placing combinator triggers on_linked_open...  Bug
+  - Trying to open a non-LTN Combinator too quickly after opening LTN combinator (latency)
+- [ ] Change background of misc signal when it is working slot
+- [ ] Update UI when settings pasted
+- [ ] Raise / process data changed event
+- [ ] Add access to player config settings
+- [ ] Sort - combine same LTN signals.  Leave misc sigs in same relative slot
+- [ ] Remove global.player_settings for player.settings
+- [ ] Remote interface to get network descriptions
+- [x] Notice for behavioral changes
+- [x] If creating new, don't disable
+- [x] Better handling of pasting signals from Plain Constant combi
+- [x] Show network config panel by default
+- [x] Make signal sprite a return to default button
+- [x] Check net icon from removed mod
+- [x] Close open sounds
+- [x] Make "anywhere" things require connected to LTN train station
+- [x] Update netid buttons when changed
+  - [ ] Check in multiplayer
+- [x] In map mode, if cursor not empty, don't open
+- [x] Prevent duplicate Net Desc opens
+- [x] Fix opening combi when depot - fields not disabled
+- [x] Necessary Migration to maintain data from old version
+- [x] Broken placing ghost
+- [x] Remote interface to open/close
+- [x] Open anywhere
+- [x] Paste anywhere
+- [x] Disable instead of hide count controls
+- [x] Clamp stack entry to not overflow items
+- [x] Depot removes other signals / hides side panel
+- [x] Blueprint / copy / paste / destroy / revive
+- [x] Provider / Requester mechanisms
+  - [x] Large Threshold
+- [x] Refactor to use event_handler
+- [x] How does script raised destroy come into play?
+- [x] Network Icon / descriptions
+- [x] Close or separate net desc window when ltnc closes
+- [x] Cancel Net Desc Window
+- [x] Negatives not quite right
+- [x] Mouse button filter on buttons network id
+- [x] update tooltip for network ID button - remove SHIFT
+- [x] E to confirm should not be in the tool tip for the commit buttons
+- [x] Description for Setting ltnc-emit-explicit-default
+- [x] Tool tips for signals
+- [x] Fix number labels
+- [x] Fix not closing when opening something else
+- [x] Network ID Panel
+- [x] Player setting to auto negative Item/fluid signals
+- [x] Update settings / defaults when mod settings change
+- [x] Do I really need all the items in the player table?
+- [x] _sort
+  - [x] ltn_signals
+  - [x] miscellaneous signals
+- [x] Improve textbox style..
+  - [x] Don't change style on click, wait until change text
+- [x] Cancel button for miscellaneous signals
+- [x] Move misc controls above
+- [x] Make misc controls not visible when not needed
+  - [x] Tab into should still be readable
+- [x] Feature parity of basic signal handling
+- [x] Depot priority needs to allow negative
+- [ ] Split gui to separate file
